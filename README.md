@@ -13,7 +13,7 @@ In this lesson, your task is to write a jukebox application that introduces
 itself to the user and then asks for the user's input on the command line.
 
 <p align="center">
-  <img width="500" src="https://curriculum-content.s3.amazonaws.com/cli-applications/jukebox/Image_13B_JukeBox.png">
+  <img width="500" src="https://curriculum-content.s3.amazonaws.com/cli-applications/jukebox/Image_13B_JukeBox.png" alt="">
 </p>
 
 To quickly review user input via the command line, let's make a small program.

@@ -22,7 +22,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   usersChoice = gets.strip
   
-  if usersChoice.to_i <= songs.length && >= 1  
+  if usersChoice.to_i <= songs.length && usersChoice.to_i >= 1  
     puts "Playing #{songs[usersChoice.to_i - 1]}"
   elsif songs.any? { |song| song == usersChoice } 
     puts "Playing #{usersChoice}"

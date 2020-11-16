@@ -43,13 +43,13 @@ def run(songs)
   until userInput == "exit"
     if userInput == "help"
       help
-      userInput
+      userInput = gets.strip
     elsif userInput == "list"
       list(songs)
-      userInput
+      userInput = gets.strip
     elsif userInput == "play"
       play(songs)
-      userInput
+      userInput = gets.strip
     end
   end
   
